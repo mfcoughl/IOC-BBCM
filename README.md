@@ -19,7 +19,7 @@ The `.tif` image sequences are hosted separately on Figshare.
 
 ## Notes
 - The background ROI is drawn on the first image and reused for all images (same pixel coordinates).
-- Images are processed in the order returned by `dir()` (typically alphabetical filename order).
+- Images are processed in the order returned by `dir()`.
 
 ## Requirements
 - MATLAB with Image Processing Toolbox (`drawfreehand`, `createMask`)
